@@ -204,6 +204,23 @@
                     "type": "integer"
                 }
             }
+        },
+        {
+            "publisher": "entrome",
+            "title": "How many patients with this disease were observed?",
+            "id": "disease",
+            "description": "Given a disease, how many observed cases exist?",
+            "parameters": {
+                "disease": {
+                    "type": "string",
+                    "description": "Disease, in MonDO format"
+                }
+            },
+            "outputs": {
+                "count": {
+                    "type": "integer"
+                }
+            }
         }
     ]
 }
