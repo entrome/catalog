@@ -221,6 +221,26 @@
                     "type": "integer"
                 }
             }
+        },
+        {
+            "publisher": "entrome",
+            "title": "How many patients of a given gender had a (variant, disease) combination?",
+            "id": "variant_disease_gender",
+            "description": "Given a (variant, disease, gender) tuple, how many cases were observed?",
+            "parameters": {
+                "variant": {
+                    "type": "string",
+                    "description": "Variant, in HGVS format"
+                },
+                "disease": {
+                    "type": "string",
+                    "description": "Disease, in MonDO format"
+                },
+                "gender": {
+                    "type": "string",
+                    "description": "Gender"
+                }
+            }
         }
     ]
 }
