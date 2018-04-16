@@ -261,6 +261,26 @@
                     "description": "Variant, in HGVS format"
                 }
             }
+        },
+        {
+            "publisher": "entrome",
+            "title": "How many patients with a cancer type and variant are under a given age?",
+            "id": "cancer_age_variant",
+            "description": "How many patients with a cancer type and variant are under a given age?",
+            "parameters": {
+                "cancer": {
+                    "type": "string",
+                    "description": "A cancer type"
+                },
+                "age": {
+                    "type": "number",
+                    "description": "Patient age at diagnosis"
+                },
+                "variant": {
+                    "type": "string",
+                    "description": "Variant, in HGVS format"
+                }
+            }
         }
     ]
 }
