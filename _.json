@@ -241,6 +241,26 @@
                     "description": "Gender"
                 }
             }
+        },
+        {
+            "publisher": "entrome",
+            "title": "How many patients have been seen with a cancer, ethnicity, and variant combination?",
+            "id": "cancer_ethnicity_variant",
+            "description": "How many patients have been seen with a cancer, ethnicity, and variant combination?",
+            "parameters": {
+                "cancer": {
+                    "type": "string",
+                    "description": "A cancer type"
+                },
+                "ethnicity": {
+                    "type": "string",
+                    "description": "Patient ethnicity"
+                },
+                "variant": {
+                    "type": "string",
+                    "description": "Variant, in HGVS format"
+                }
+            }
         }
     ]
 }
