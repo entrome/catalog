@@ -27,9 +27,12 @@
             "versions":[{"2.0.0":{"notes":"", "status":"active"}}],
             "description": "Has this variant been seen in a case?",
             "parameters": {
-                "variant": {
-                    "type": "string",
-                    "description": "Variant"
+                "variants": {
+                    "type": "array",
+                    "description": "Variant",
+                    "items": {
+                        "type":"string"
+                    }
                 }
             },
             "outputs": {
