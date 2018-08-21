@@ -21,6 +21,25 @@
         },
         {
             "publisher": "entrome",
+            "title": "Has variant been observed?",
+            "id": "tumorboard_variants",
+            "status": "active",
+            "versions":[{"2.0.0":{"notes":"", "status":"active"}}],
+            "description": "Has this variant been seen in a case?",
+            "parameters": {
+                "variant": {
+                    "type": "string",
+                    "description": "Variant"
+                }
+            },
+            "outputs": {
+                "count": {
+                    "type": "integer"
+                }
+            }
+        },
+        {
+            "publisher": "entrome",
             "title": "Has (variant, disease) tuple been observed?",
             "id": "variant_and_disease_count",
             "description": "Given a variant and a disease, return a count of the number of occurrences where this tuple exists",
